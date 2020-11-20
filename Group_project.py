@@ -38,7 +38,7 @@ def scrapecontent(url):
 def main():
     review_no = 0
     page_no = 1
-    while(page_no <= 1):
+    while(page_no <= 160):
         # Automatically access subsequent pages
         # 1st page url: https://www.trustpilot.com/review/vivino.com?page=1
         # 2nd page url: https://www.trustpilot.com/review/vivino.com?page=2
