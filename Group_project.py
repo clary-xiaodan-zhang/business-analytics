@@ -124,6 +124,11 @@ print(main())
 
 
 
+
+
+
+
+
 ''' Old version
 
 #!/usr/bin/env python3
@@ -134,9 +139,6 @@ print(main())
 import requests
 import bs4 
 import csv
-
-
-
 
 
 '''Print All Reviews'''
@@ -173,9 +175,6 @@ def print_reviews():
     print('Total number of reviews scrapped::', review_no-1)
         
 print_reviews()
-
-
-
 
 
 
